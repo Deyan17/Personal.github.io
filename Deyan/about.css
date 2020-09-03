@@ -1,0 +1,42 @@
+body{}
+h1{font-family: 'Lobster', cursive;
+color: white;
+text-align: center;
+}
+.can{
+	display: flex;
+	flex-direction: row;
+}
+img{
+	display: block;
+	border-radius: 50%;
+	padding: 14%;
+	display: center;
+}
+article.left{
+	width: 30%;
+	background-color: skyblue;
+	height: 500px;
+	border-radius: 30px;
+	padding: 10px;
+}
+article.right{
+	width: 70%;
+	background-color: skyblue;
+	height: 500px;
+	border-radius: 30px;
+	padding: 10px;
+	margin-left: 5px;
+}
+p{font-family: 'Abel', cursive;}
+.intro{
+	width: 800px;
+	padding: 5px;
+	height: 2px;
+	text-align: left;
+	justify-content: all;
+	font-size:18px;
+
+}
+
+}

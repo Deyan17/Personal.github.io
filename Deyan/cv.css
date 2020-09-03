@@ -1,0 +1,78 @@
+body{}
+h1{font-family: 'Lobster', cursive;
+text-align: center;
+color: white;}
+h4{font-family: 'Abel', cursive;
+text-align: center;
+color: white;}
+
+div.man{
+	display: flex;
+	flex-direction: row;
+}
+img{
+	border-radius: 50%;
+	padding: 10px;
+}
+article.show{
+		width: 30%;
+	background-color: lightgreen;
+	height: 600px;
+	border-radius: 30px;
+	padding: 10px;
+}
+article.info{
+	width: 35%;
+	background-color: lightgreen;
+	height: 600px;
+	border-radius: 30px;
+	padding: 10px;
+	margin-left: 2px;
+}
+p{font-family: 'Abel', cursive;}
+.input{
+	width: 500px;
+	padding: 2px;
+	height: 25px;}
+	article.add{
+		width: 35%;
+	background-color: lightgreen;
+	height: 600px;
+	border-radius: 30px;
+	padding: 10px;
+	margin-left: 2px;
+		text-align: left;
+	}
+h2.interest{
+	text-align: left;
+}
+
+
+.cv nav{
+	padding: 1%;
+	margin-left: 280px;
+	font-family: 'Lobster', cursive;
+}
+.navs{
+	list-style-type: none;
+	overflow: hidden;
+	width: 100%;
+}
+li{
+	float: left;
+}
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding:1px;
+	width: 100px;
+}
+li a:hover{
+	background-color: #333;
+}
+footer{
+	text-align: center;
+	color: white;
+	position: relative;
+}

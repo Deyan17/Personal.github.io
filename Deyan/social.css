@@ -1,0 +1,91 @@
+body{}
+
+h1{font-family: 'Lobster', cursive;
+color: white;
+text-align: center;
+}
+p{font-family: 'Lobster', cursive;
+color: white;
+text-align: center;
+font-size: 20px;
+}
+
+ul.social{
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+ul.social li{
+	list-style: none;
+	float: left;
+	margin: 10px;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	font-size: 50px;
+	background: #333;
+	border-radius: 50%;
+	position: relative;
+	overflow: hidden;
+	color: white;
+
+}
+li.fb:hover{
+	background: #3b5999;
+}
+li.insta:hover{
+	background: #e4405f;}
+
+li.sky:hover{
+	background: #00AFF0;}
+
+li.you:hover{
+	background: #cd201f;}
+
+li.ya:hover{
+	background: #410093;}
+
+.foot{
+	text-align: center;
+	color: white;
+	position: relative;
+	height: 10px;
+	margin-top: 300px;
+}
+
+
+
+nav{padding: 1%;
+	margin-left: 280px;
+	font-family: 'Lobster', cursive;
+}
+.navs{
+	list-style-type: none;
+	overflow: hidden;
+	width: 100%;
+}
+li{
+	float: left;
+}
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding:1px;
+	width: 100px;
+}
+
+li a:hover{
+	background-color: skyblue;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+ 
+     }

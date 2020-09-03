@@ -1,0 +1,55 @@
+body{}
+h1{font-family: 'Lobster', cursive;
+text-align: center;
+color: white;
+}
+h2{font-family: 'Lobster', cursive;
+color: white;
+}
+div.container{
+	display: flex;
+	flex-direction: row;
+}
+article.left-column {text-align: center;
+	width: 50%;
+	background-color: orange;
+	height: 500px;
+	border-radius: 30px;
+	padding: 10px;
+}
+article.right-column {
+	width: 50%;
+	background-color: lightgreen;
+	height: 500px;
+	border-radius: 30px;
+	padding: 10px;
+	margin-left: 5px;
+}
+h2.message{text-align: center;
+}
+
+p{font-family: 'Abel', cursive;}
+.input{
+	width: 500px;
+	padding: 2px;
+	height: 25px;
+}
+.form{
+	font-family: 'Abel', cursive;
+}
+iframe{
+border-radius: 10px;
+width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
